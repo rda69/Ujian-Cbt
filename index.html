@@ -7,8 +7,11 @@
     <style>
         body { font-family: sans-serif; background: #f0fdf4; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
         .card { background: white; width: 90%; max-width: 400px; border-radius: 15px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; }
-        .header-icon { width: 70px; margin-bottom: 10px; }
-        h1 { color: #1e40af; margin: 5px 0; font-size: 24px; }
+        .header-icon { 
+            width: 80px;  /* Ini ukuran lebarnya, lu bisa ganti angkanya (misal 100px) kalau kurang besar */
+            height: auto; /* Ini WAJIB ada, biar tingginya ngikutin secara proporsional dan nggak gepeng */
+            margin-bottom: 10px; 
+        }
         .mapel { color: #16a34a; font-weight: bold; margin-bottom: 20px; }
         .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 20px; }
         .box { border: 1px solid #e2e8f0; padding: 10px; border-radius: 10px; }
